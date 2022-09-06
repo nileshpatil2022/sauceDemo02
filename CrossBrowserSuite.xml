@@ -5,8 +5,7 @@
  <parameter name="browserName" value="chrome"></parameter>
     <classes>
       <class name="sauceDemo02.TestBasePack.TC01VerifyLoginFunctionality"/>
-    <class name="sauceDemo02.TestBasePack.TC02VerifyLogoutFuctinality"/>
-    <class name="sauceDemo02.TestBasePack.TC03VerifyBagProductAddToCartFunctionality"/>
+    
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

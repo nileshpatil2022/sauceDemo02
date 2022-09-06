@@ -10,8 +10,11 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
+
+
 import sauceDemo02.POMPack.HomePOMClass;
-import sauceDemo02.POMPack.LoginPOMClass;
+
+
 
 public class TC02VerifyLogoutFuctinality extends TestBaseClass
 {
@@ -38,6 +41,7 @@ public class TC02VerifyLogoutFuctinality extends TestBaseClass
 		
 		
 		Assert.assertEquals(ActualResult, ExpectedResult);
+		// test.log(Status.INFO, "test case 02 Passed");
 	}
 		
 		

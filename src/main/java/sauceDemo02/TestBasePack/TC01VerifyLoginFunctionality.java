@@ -13,6 +13,8 @@ import org.testng.annotations.Test;
 
 
 
+
+
 public class TC01VerifyLoginFunctionality extends TestBaseClass 
 {
 	
@@ -24,8 +26,8 @@ public class TC01VerifyLoginFunctionality extends TestBaseClass
 		 
 		 String ActualResult=driver.getTitle();
 		 
-		 
 		Assert.assertEquals(ActualResult, ExpectedResult);
+		// test.log(Status.INFO, "test case 01 Passed");
 	}
 		 
 		 

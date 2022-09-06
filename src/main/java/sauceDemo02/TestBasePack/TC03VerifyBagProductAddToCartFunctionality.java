@@ -10,8 +10,9 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
+
+
 import sauceDemo02.POMPack.HomePOMClass;
-import sauceDemo02.POMPack.LoginPOMClass;
 
 
 
@@ -33,6 +34,7 @@ public class TC03VerifyBagProductAddToCartFunctionality extends TestBaseClass
 		String ExpectedResult=lg.getTextFromAddToCart();
 		
 		Assert.assertEquals(actualResult, ExpectedResult);
+		// test.log(Status.INFO, "test case 03 Passed");
 	}
 	    
 		
